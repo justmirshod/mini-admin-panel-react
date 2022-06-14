@@ -1,0 +1,44 @@
+{
+  "news": [
+    {
+      "id": 1,
+      "name": "My first news",
+      "description": "Yesterdat when I was going to the office suddenly I saw one man eating person's meat, it was so awful",
+      "category": "Hot News"
+    },
+    {
+      "id": "4dea2664-dc90-48a1-a298-bbcec07f6b11",
+      "name": "Mirshod",
+      "description": "Luca Modrich has won hist fifth Ucl cup. When he came to Real Madrid he had no any of them",
+      "category": "Sport News"
+    },
+    {
+      "id": "ddab1bcb-108f-4120-8ad4-c011d41403c6",
+      "name": "Report: Child care woes cost Arizona",
+      "description": "Instability in Arizona’s child care system is costing the state an estimated $1.8 billion in economic activity a year, according to a new U.S. ",
+      "category": "World News"
+    }
+  ],
+  "filters": [
+    {
+      "name": "all",
+      "label": "All",
+      "className": "btn-outline-dark"
+    },
+    {
+      "name": "Hot News",
+      "label": "Hot News",
+      "className": "btn-outline-danger"
+    },
+    {
+      "name": "Sport News",
+      "label": "Sport News",
+      "className": "btn-outline-primary"
+    },
+    {
+      "name": "World News",
+      "label": "World News",
+      "className": "btn-outline-success"
+    }
+  ]
+}

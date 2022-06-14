@@ -1,0 +1,90 @@
+@import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.app{
+  height: 100vh;
+  overflow-y: scroll;
+  background: url(./assets/bg.jpg) center / cover no-repeat;
+}
+
+.content{
+  display: flex;
+  justify-content: center;
+  padding: 2rem 0;
+  .user__part{
+    width: 40%;
+    margin-right: 4rem;
+  }
+  &__page{
+    width: 30%;
+  }
+  // display: grid;
+  // grid-template-columns: 500px 450px;
+  // max-width: 1040px;
+  // margin: 0 auto;
+  // padding: 50px 0;
+  // &__page{
+  //   padding-left: 40px;
+  // }
+}
+@media (max-width: 600px) {
+  .content{
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    align-items: center;
+    .user__part{
+      width: 80%;
+    }
+    &__page{
+      width: 80%;
+      margin: 1rem 0;
+    }
+  }
+}
+@media (min-width: 600.1px) and (max-width: 700px ) {
+  .content{
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 3rem ;
+    .user__part{
+      width: 80%;
+    }
+    &__page{
+      width: 80%;
+      margin: 1rem 0;
+    }
+  }
+}
+
+@media (min-width: 700.1px) and (max-width: 800px ) {
+  .content{
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5rem ;
+    .user__part{
+      width: 80%;
+    }
+    &__page{
+      width: 80%;
+      margin: 1rem 0;
+    }
+  }
+}
+
+@media (min-width: 800.1px) and (max-width: 900px ) {
+  .content{
+    .user__part{
+      width: 50%;
+      margin-right: 2rem;
+    }
+    &__page{
+      width: 40%;
+    }
+  }
+}
